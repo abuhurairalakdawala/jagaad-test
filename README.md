@@ -14,3 +14,32 @@ Visit `http://localhost:8000/` to see the list of cities and forecast of next 2 
 3) To run unit test, run the cmd below
 
 `vendor/bin/phpunit --filter HttpServiceTest`
+
+
+4) #### Api endpoints to read the forecast for a specific city
+
+##### Endpoint `/forecast/city/{id}`
+##### Sample Response
+````
+{
+    'city': 'Amsterdam',
+    'forecast': [{
+        'today': 'Sunny'
+        'tomorrow': 'Cloudy'
+    }]
+}
+````
+
+5) #### Api endpoints to update the forecast for a specific city
+
+##### Endpoint `/forecast/city`
+##### Sample Parameters
+````
+{
+    'city_id': 1,
+    'forecast': [{
+        'today': 'Sunny'
+        'tomorrow': 'Cloudy'
+    }]
+}
+````

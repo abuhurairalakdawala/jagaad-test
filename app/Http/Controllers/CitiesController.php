@@ -31,8 +31,13 @@ class CitiesController extends Controller
         }
     }
 
-    public function cityForecast($id)
+    public function cityForecast(int $id)
     {
-        // code...
+        // dummy endpoint here as no code required...
+    }
+
+    public function updateCityForecast(int $id)
+    {
+        // dummy endpoint here as no code required...
     }
 }
