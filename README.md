@@ -1,3 +1,4 @@
+### Developer Name: Abu Huraira Lakdawala
 #### This project is built in Laravel Framework.
 
 1) Follow below 2 steps for installation
