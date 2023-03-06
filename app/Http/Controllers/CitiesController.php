@@ -30,4 +30,9 @@ class CitiesController extends Controller
             echo '<br>';
         }
     }
+
+    public function cityForecast($id)
+    {
+        // code...
+    }
 }

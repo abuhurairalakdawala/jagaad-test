@@ -15,3 +15,5 @@ use App\Http\Controllers\CitiesController;
 */
 
 Route::get('/', [CitiesController::class, 'citiesWeather']);
+
+Route::get('/forecast/city/{id}', [CitiesController::class, 'cityForecast']);
